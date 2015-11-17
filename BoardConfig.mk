@@ -90,6 +90,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13271448576
 
 # Kernel
 TARGET_KERNEL_CONFIG := bacon_defconfig
+TARGET_KERNEL_SOURCE := kernel/bacon
 KERNEL_DEFCONFIG := bacon_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
 BOARD_KERNEL_TAGS_OFFSET := 0x01e00000
